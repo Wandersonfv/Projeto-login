@@ -1,0 +1,145 @@
+@charset "UTF-8";
+
+:root{
+    --branco: white;
+    --preto: #1C1126;
+    --cinza: #E4EAF2;
+    --verdeEscuro: #4D736F;
+    --marronClaro: #A68F8D;
+    --marroEscuro: #734F4F;
+
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    background-image: linear-gradient(var(--cinza),var(--marronClaro),var(--marroEscuro),var(--preto));
+}
+main{
+    width: 300px;
+    height: 500px;
+    margin: auto;
+    background-color: var(--branco);
+    border-radius: 10px;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.123);
+    
+}
+#d1{
+    width: 100%;
+    height: 40%;
+    background-image: url(../imagens/predio.jpg);
+    background-position: center center;
+    background-size: cover;
+    
+    background-repeat: no-repeat;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#d2{
+    width: 100%;
+    height: 60%;
+    
+
+}
+h1{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #734F4F;
+}
+
+.text{
+    text-align: center;
+    font-size: 1rem;
+    padding: 2px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #1C1126;
+    
+}
+form > p{
+    text-align: center;
+     
+}
+.formulario{
+    background-color: #4D736F;
+    margin: 1px;
+    border-radius: 10px;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.formulario > input{ 
+    width: 80%;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    border: 0;
+    color: #734F4F;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    
+    
+}
+.formulario > label{
+    width: 20%;
+
+}
+
+
+
+
+
+#btf{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    
+
+}
+#enviar{
+    background-color: #734F4F;
+    color: #E4EAF2;
+    padding: 5px 30px;
+    border-radius: 10px;
+    border: 0;
+
+}
+
+#enviar:active{
+    background-color: #E4EAF2;
+    color: #734F4F;
+}
+
+#enviar:hover{
+    background-color: #E4EAF2;
+    color: #734F4F;
+    cursor: pointer;
+}
+
+#esq{
+    text-decoration: none;
+    background-color: #734F4F;
+    color: #E4EAF2;
+    padding: 5px 30px;
+    border-radius: 10px;
+
+}
+
+#esq:active{
+    background-color: #E4EAF2;
+    color: #734F4F;
+}
+#esq:hover{
+    background-color: #E4EAF2;
+    color: #734F4F;
+    cursor: pointer;
+
+}
