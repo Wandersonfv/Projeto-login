@@ -19,7 +19,7 @@ body{
     height: 100vh;
     width: 100vw;
     display: flex;
-    background-image: linear-gradient(var(--cinza),var(--marronClaro),var(--marroEscuro),var(--preto));
+    
 }
 main{
     width: 300px;
