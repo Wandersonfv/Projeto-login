@@ -3,8 +3,8 @@
 
 @media screen and (min-width: 828px){
     main{
-       width: 800px;
-        height: 400px;
+        width: 60vw;
+        height: 40vh;
         display: flex;
         
 
