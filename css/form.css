@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+:root{
+    --branco: white;
+    --preto: #1C1126;
+    --cinza: #E4EAF2;
+    --verdeEscuro: #4D736F;
+    --marronClaro: #A68F8D;
+    --marroEscuro: #734F4F;
+
+}
+
+@media screen {
+    body{
+        background-color: var(--verdeEscuro);
+        display: flex;
+        border: 0;
+        margin: 0;
+        height: 100vh;
+        width: 100vw;
+    }
+    main{
+        margin: auto;
+        background-color: var(--branco);
+        height: 700px;
+        width: 350px;
+        border-radius: 10px;
+        box-shadow: 2px 2px 2px rgba(21, 78, 2, 0.361);
+    }
+    #img{
+        background-image: url(../imagens/predio.jpg);
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 30%;
+        width: 100%;
+        border-radius: 10px 10px 0px 0px;
+
+    }
+    form{
+        height: 70%;
+        width: 100%;
+        padding: 5px;
+    }
+    
+}
